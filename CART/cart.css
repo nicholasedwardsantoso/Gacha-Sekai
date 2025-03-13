@@ -188,11 +188,14 @@ ul li:hover ul.dropdown {
         margin-left: 60em;
     }
 
-    .total-price table{
-        border-top: 3px solid #ff523b;
-        width: 100%;
-        max-width: 350px;
-    }
+    tr:nth-last-child(3) td:nth-last-child(2),
+    tr:nth-last-child(3) td:last-child {
+        border-top: 2px solid #ff523b;
+}
+    tr:last-of-type td {
+    border-top: 2px solid #ff523b;
+    border-bottom: 2px solid #ff523b;
+}
 
     th:last-child, td:last-child{
         text-align: right;
