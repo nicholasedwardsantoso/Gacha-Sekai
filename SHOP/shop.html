@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="../HOME/home.html" target="_blank" class="mainLink"><img src="../HOME/home/logo_pink.png" width="130" height="130"></a></li>
+                <li class="blablabla">
+                    <a href="#" class="mainLink">Products▾</a>
+                    <ul class="dropdown">
+                        <li><a href="../SHOP/shop.html" target="_blank">Action Figures</a></li>
+                        <li><a href="../SHOP/shop.html" target="_blank">Plushies</a></li>
+                        <li><a href="../SHOP/shop.html" target="_blank">Keychains</a></li>
+                        <li><a href="../SHOP/shop.html" target="_blank">Clothings</a></li>
+                        <li><a href="../SHOP/shop.html" target="_blank">Pins</a></li>
+                        <li><a href="../SHOP/shop.html" target="_blank">Cosplays</a></li>
+                    </ul>
+                </li>
+                <li><a class="mainLink" href="#contact">Contact</a></li>
+                <li><a href="#" class="mainLink cart"><img id="cartImg" src="../SHOP/shop/myCart.png" width="50" height="50">My Cart</a></li>          
+            </ul>
+            
+        </nav>
+
+        <div id="specialMessage">
+                <p>Discover our limited Easter promos that only come once a year! <a href="#">Click here for details</a></p>
+            </div>
+        <!--NAVBAR-->
+
+        <div id="container">
+        <div class="filter">
+            <p class="filterTitle">FILTER BY ▾</p>
+            <hr>
+            <p class="filterSubTitle">ANIME FRANCHISE</p>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">One Piece</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Fate</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Naruto</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">My Hero Academia</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Bleach</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Chainsaw Man</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Frieren</label>
+            </div>
+            <hr>
+
+
+            <p class="filterSubTitle">CATEGORY</p>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Action Figures</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Plushies</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Keychains</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Clothings</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Pins</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Cosplays</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Easter</label>
+            </div>
+            <hr>
+
+            <p class="filterSubTitle">GENDER</p>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Male</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">Female</label>
+            </div>
+            <div class="wrapper">
+                <input type="checkbox" id="check">
+                <label for="check">None</label>
+            </div>
+            <hr>
+
+            <p class="filterSubTitle">PRICE</p>
+            <div class="wrapper">
+                <label>$</label>
+                <input type="text" value="0">
+                <label>TO</label>
+                <input type="text">
+            </div>
+        </div>
+        <div id="subContainer">
+            <h1>ALL PRODUCTS</h1>
+            <div class="cardContainer">
+                <div class="card">
+                    <img class="imgCard" src="../SHOP/shop/pin.png">
+                    <p align="center" class="cardText">Pin</p>
+                </div>
+                <div class="card">
+                    <img class="imgCard" src="../SHOP/shop/plushie.jpg">
+                    <p align="center" class="cardText">Plush</p>
+                </div>
+                <div class="card">
+                    <img class="imgCard" src="../SHOP/shop/figurine.jpg">
+                    <p align="center" class="cardText">Figurine</p>  
+                </div>
+                <div class="card">
+                    <img class="imgCard" src="../SHOP/shop/cosplay.jpg">
+                    <p align="center" class="cardText">Cosplay</p>
+                </div>
+            </div>
+            <div class="productHeader">
+                <p><b>PRODUCTS:</b>(1-16 of 999999)</p>
+                <button class="pageNumber pageOne">1</button>
+                <button class="pageNumber">2</button>
+                <button class="pageNumber">3</button>
+                <button class="pageNumber">4</button>
+                <button class="pageNumber">5</button>
+            </div>
+            <hr color="#ced4da">
+            <br>
+            <div class="productContainer">
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/luffy_child.avif" class="productImg"></a>
+                    <p align="center" class="productDesc"><span class="newProduct">New!</span> Summer Luffy Edition || One Piece Summer Plush</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$39.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/kon.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc"><span class="newProduct">New!</span> Kon Plush || Bleach Plush</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$27.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/dandadan.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc"><span class="newProduct">New!</span> Momo Ayase Plush || DAN DA DAN Plush</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$30.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/insokuke.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc"><span class="newProduct">New!</span> Inosuke Plush || Demon Slayer Plush</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$40.99</p>
+                </div>
+            </div>
+            <div class="productContainer">
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/yor.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc"><span class="newProduct">New!</span> Yor Forger Chilling Plush || SPY X FAMILY Plush</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$1.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/bykuya.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Byakuya Figurine || Bleach Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$40.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/choso.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Choso Figurine || Jujutsu Kaisen Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$30.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/gojogeto.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Suguru Geto & Satoru Gojo Duet Figurine || Jujutsu Kaisen Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$99.99</p>
+                </div>
+            </div>
+            <div class="productContainer">
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/reoo.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Reo Mikage School Edition Figurine || BLUE LOCK Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$66.66</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/nagi.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Seishiro Nagi School Edition Figurine || BLUE LOCK Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$240.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/sakamoto.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Sakamato Taro Young Edition Figurine || Sakamoto Days Figurine</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$39.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/darlingg.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Zero Two T-shirt || Darling in the FRANXX Clothing</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$24.99</p>
+                </div>
+            </div>
+            <div class="productContainer">
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/strawhat.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Luffy Strawhat || One Piece Clothing</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$999.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/psycho.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Shiegeo Color Pop T-shirt || MOB PSYCHO Clothing</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$40.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/mha.webp" class="productImg"></a>
+                    <p align="center" class="productDesc">Hero League Baseball T-shirt || My Hero Academia Clothing</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                    </div>
+                    <p align="center" class="productPrice">$59.99</p>
+                </div>
+                <div class="product">
+                    <a href="#"><img src="../SHOP/shop/cards/fgo.jpg" class="productImg"></a>
+                    <p align="center" class="productDesc">Extra Attack T-shirt || Fate/Grand Order Clothing</p>
+                    <div class="rating">
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star ON"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p align="center" class="productPrice">$13.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="contact">
+        <img class="footerElement" src="../HOME/home/logo_white.png" width="150" height="150">
+        <p class="footerElement">Contact: +628118251303</p>
+        <p class="footerElement">Official Youtube: GACHA SEKAI OFFICIAL</p>
+    </footer>
+</body>
+</html>
