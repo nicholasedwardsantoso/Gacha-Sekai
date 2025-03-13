@@ -300,3 +300,22 @@ ul li:hover ul.dropdown {
     margin-left: 42em;
 }
 /*BANNER SPECIFIC*/
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #023047;
+}
+
+.footerElement{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+/*FOOTER*/
